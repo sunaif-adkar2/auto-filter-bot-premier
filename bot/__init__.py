@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
+# (c) @AlbertEinsteinTG & MRK_YT
 
 import os
 import logging
@@ -9,6 +9,19 @@ import time
 from logging.handlers import RotatingFileHandler
 
 from .translation import Translation
+
+# Created https://github.com/MRK-YT 
+UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL")
+
+MT_CHANNEL_USERNAME = os.environ.get("JOIN_MAIN_CHANNEL")
+
+MASSAGE_PHOTO = os.environ.get("TEXT_MEG_PH")
+
+MRK_YT_MASTER = os.environ.get("BOT_MASTER")
+
+MT_GROUP = os.environ.get("G_ID_START")
+
+MT_CHANNEL = os.environ.get("C_ID_START")
 
 # Change Accordingly While Deploying To A VPS
 APP_ID = int(os.environ.get("APP_ID"))
