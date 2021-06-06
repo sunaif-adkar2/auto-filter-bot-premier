@@ -36,9 +36,10 @@ pip3 install -r requirements.txt
 python3 -m bot
 </pre>
 </p>
-</deCredits
+</deCredits>
 
-<details><summary>Credits 👇</summary>
+#### Credits
+<details><summary>Credits</summary>
 <p>
 <pre>
 <p align="middle">
@@ -60,8 +61,9 @@ python3 -m bot
  - Thnaks To Mo Tech YT For [Editing](https://github.com/MRK-YT)
 </pre>
 </p>
-</deCredits
+</deCredits>
 
+#### Dev Details
 <details><summary>Dev Details 👤:</summary>
 <p>
 <pre>
@@ -87,4 +89,4 @@ Report Bugs, Give Feature Requests There..
 Do Fork And Star The Repository If You Liked It.
 </pre>
 </p>
-</deCredits
+</deCredits>
