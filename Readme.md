@@ -38,8 +38,9 @@ python3 -m bot
 </p>
 </deCredits
 
-#### Credits
-
+<details><summary>Credits</summary>
+<p>
+<pre>
 <p align="middle">
 <img src="https://telegra.ph/file/0df7579a47affa0d8f89f.jpg" width="100" height="100"><br>
 <img src="https://badgen.net/badge/Name/Albert Einstein/FF33FF?icon=awesome&labelColor=0080FF"></a>
@@ -58,9 +59,13 @@ python3 -m bot
  - Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
  - Thanks To SpEcHiDe For His Awesome [DeleteMessagesRoBot](https://github.com/SpEcHiDe/DeleteMessagesRoBot)
  - Thnaks To Mo Tech YT For [Editing](https://github.com/MRK-YT)
+</pre>
+</p>
+</deCredits
 
-#### Dev Details 👤:
-
+<details><summary>Dev Details 👤:</summary>
+<p>
+<pre>
 <p align="middle">
 <img src="https://telegra.ph/file/9e831d15da94deb56ef4c.jpg" width="100" height="100"><br>
 <img src="https://badgen.net/badge/Name/Mrk YT/FF33FF?icon=awesome&labelColor=0080FF"></a>
@@ -81,4 +86,6 @@ Join Our [Telegram Group](https://www.telegram.dog/Mo_Tech_Group) For Support/As
    
 Report Bugs, Give Feature Requests There..   
 Do Fork And Star The Repository If You Liked It.
-
+</pre>
+</p>
+</deCredits
