@@ -38,7 +38,7 @@ python3 -m bot
 </p>
 </deCredits
 
-<details><summary>Credits</summary>
+<details><summary>Credits 👇</summary>
 <p>
 <pre>
 <p align="middle">
@@ -49,8 +49,7 @@ python3 -m bot
 <a href="https://github.com/AlbertEinsteinTG"><img src="https://badgen.net/badge/Follow%20on%20/Github/80FF00?icon=github&labelColor=black"></a>
 <a href="https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ"><img src="https://img.shields.io/badge/Yᴏᴜᴛᴜʙᴇ-Cʜᴀɴɴᴇʟ-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
 <p align="left">
-</p>                                                           
-                                                    
+</p>                                                                                                               
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/yellow?icon=github)](https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2)
 [![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20Me-Anything-1abc9c.svg)](https://telegram.dog/AlbertEinstein_TG)
 [![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/AlbertEinstein_TG)
