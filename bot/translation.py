@@ -6,11 +6,11 @@ class Translation(object):
     
     START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
 
-<b>Am Just A Pro Auto Filter Bot V2....😉</b>
+<b>I am a Pro AutoFilterBot V2....😜</b>
 
-<b>Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝</b>
+<b>Make me an admin for your group and channel then connect me....🎉</b>
 
-<b>Watch the video below to build an Pro Autofilter bot V2 like me...</b>
+<b>🙂Watch the video below to build an Pro Autofilter bot V2 like me...</b>
 
 <b>Subscribe to the update channel to learn about my updates and activity...</b>
 
