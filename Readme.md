@@ -36,7 +36,7 @@ pip3 install -r requirements.txt
 python3 -m bot
 </pre>
 </p>
-</deCredits>
+</details>
 
 #### Credits
 <details><summary>Credits</summary>
@@ -61,7 +61,7 @@ python3 -m bot
  - Thnaks To Mo Tech YT For [Editing](https://github.com/MRK-YT)
 </pre>
 </p>
-</deCredits>
+</details>
 
 #### Dev Details
 <details><summary>Dev Details 👤:</summary>
