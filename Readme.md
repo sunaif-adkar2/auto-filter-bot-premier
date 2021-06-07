@@ -5,7 +5,6 @@
     <img src="https://img.shields.io/github/stars/MoTechYT/Pro-Auto-Filter-Bot-V2?style=social">
 
   </a>
-  
   <a href="https://github.com/MoTechYT/Pro-Auto-Filter-Bot-V2/fork">
     <img src="https://img.shields.io/github/fork/MoTechYT/Pro-Auto-Filter-Bot-V2?label=Fork&style=social">
 
