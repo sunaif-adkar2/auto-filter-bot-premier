@@ -7,10 +7,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 from pyrogram.errors import UserNotParticipant
 from bot import Translation # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
-from bot import UPDATE_CHANNEL
-from bot import MRK_YT_MASTER
-from bot import MT_GROUP
-from bot import MT_CHANNEL
+from bot import UPDATE_CHANNEL, MRK_YT_MASTER, MT_GROUP, MT_CHANNEL
 
 db = Database()
 
@@ -112,13 +109,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👨‍💼 𝙼𝚊𝚜𝚝𝚎𝚛', url=f'https://t.me/{MRK_YT_MASTER}'),
-        InlineKeyboardButton('𝙷𝚎𝚕𝚙 🤔', callback_data="help")
+        InlineKeyboardButton('👨‍💼Creater', url=f'https://t.me/{MRK_YT_MASTER}'),
+        InlineKeyboardButton('Help 🤔', callback_data="help")
     ],[
-        InlineKeyboardButton('👩‍👩‍👧 𝙶𝚛𝚘𝚞𝚙', url=f'{MT_GROUP}'),
-        InlineKeyboardButton('𝙲𝚑𝚊𝚗𝚗𝚎𝚕 🔊', url=f'{MT_CHANNEL}')
+        InlineKeyboardButton('🗣️Group', url=f'{MT_GROUP}'),
+        InlineKeyboardButton('Channel🔊', url=f'{MT_CHANNEL}')
     ],[
-        InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtu.be/OTqZmADyOjU')
+        InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/OTqZmADyOjU')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -157,13 +154,13 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 @𝙼𝚛𝚔_𝚈𝚃 👤', url='https://t.me/MRK_YT'),
-        InlineKeyboardButton('@𝚂𝚔𝚙_𝙺𝚙 👤', url='https://t.me/Skp_Kp')
+        InlineKeyboardButton('👤 Mrk YT👤', url='https://t.me/MRK_YT'),
+        InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
     ],[
-        InlineKeyboardButton('👤 @𝙰𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶 👤', url='https://t.me/AlbertEinsteinTG')
+        InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
     ],[
-        InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
-        InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
+        InlineKeyboardButton('🏠 Home', callback_data='start'),
+        InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
