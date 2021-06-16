@@ -144,7 +144,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     text=f"<b>🗂️Total File :- {leng}</b>\n<b>🎬Movie Name :-</b> <code>{query}</code>"
         
-    try::
+    try:
         await update.message.edit(
                 text,
                 reply_markup=reply_markup,
