@@ -81,7 +81,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if ((index_val + 1 )== max_pages) or ((index_val + 1) == len(results)): # Max Pages
         temp_results.append([
-            InlineKeyboardButton("««« 𝙱𝚊𝚌𝚔", callback_data=f"navigate({index_val}|back|{query})")
+            InlineKeyboardButton("«««", callback_data=f"navigate({index_val}|back|{query})")
         ])
 
     elif int(index_val) == 0:
@@ -89,13 +89,13 @@ async def cb_navg(bot, update: CallbackQuery):
 
     else:
         temp_results.append([
-            InlineKeyboardButton("««« 𝙱𝚊𝚌𝚔", callback_data=f"navigate({index_val}|back|{query})"),
-            InlineKeyboardButton("𝙽𝚎𝚡𝚝 »»»", callback_data=f"navigate({index_val}|next|{query})")
+            InlineKeyboardButton("«««", callback_data=f"navigate({index_val}|back|{query})"),
+            InlineKeyboardButton("»»»", callback_data=f"navigate({index_val}|next|{query})")
         ])
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"📑 𝙿𝚊𝚐𝚎 {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 📑", callback_data="ignore")
+            InlineKeyboardButton(f"📑 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 📑", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -144,7 +144,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     text=f"<b>🗂️Total File :- {leng}</b>\n<b>🎬Movie Name :-</b> <code>{query}</code>"
         
-    try:
+    try::
         await update.message.edit(
                 text,
                 reply_markup=reply_markup,
@@ -1600,15 +1600,15 @@ async def cb_about(bot, update: CallbackQuery):
 
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
-    text+=f"\n<b><i>Bot Funtion:</i></b> <i>Pro Auto File Filter Bot</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Mo_TECH_YT">MoTechYT</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/MRK_YT/Pro-Auto-Filter-Bot">Source</a>"""
+    text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
+    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Mo_Tech_YT">Mo Tech YT</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/Mo_Tech_YT/Pro-Filter-Bot-V2">Source</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/MRK_YT"
+                    "My Dev ⚡", url="https://t.me/Mo_Tech_Group"
                 ),
                 
             InlineKeyboardButton
