@@ -32,7 +32,7 @@ async def start(bot, update):
             )
             return
         except Exception
-            await update.reply_text("<b>This bot should be the admin on your update channel</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>"") # Update Channel Added
+            await update.reply_text("<b>This bot should be the admin on your update channel</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>") # Update Channel Added
             return    
     try:
         file_uid = update.command[1]
