@@ -7,10 +7,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 from pyrogram.errors import UserNotParticipant
 from bot import Translation # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
-from bot import UPDATE_CHANNEL
+from bot import UPDATE_CHANNEL # Update Text Message Channel Update
 from bot import MRK_YT_MASTER
 from bot import MT_GROUP
-from bot import MT_CHANNEL
+from bot import MT_CHANNEL # Main Channel Added
 
 db = Database()
 
@@ -24,7 +24,6 @@ async def start(bot, update):
                await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 🤣🤣🤣**")
                return
         except UserNotParticipant:
-            #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
                 text="<b>🔊 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🤭.\n\nനിങ്ങൾക്ക് മൂവീസ് വേണോ? എങ്കിൽ തായെ കാണുന്ന ഞങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യുക.😂\nഎന്നിട്ട് ഗ്രൂപ്പിൽ പോയി വീണ്ടും മൂവിയിൽ ക്ലിക് ചെയ്ത് start കൊടുത്തു നോക്കൂ..!😁</b>",
                 reply_markup=InlineKeyboardMarkup([
@@ -32,8 +31,8 @@ async def start(bot, update):
               ])
             )
             return
-        except Exception:
-            await update.reply_text("<b>This bot should be the admin on your update channel</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>")
+        except Exception
+            await update.reply_text(f"അത്യം ഈ @{UPDATE_CHANNEL} ചാനലിൽ ബോട്ടിനെ അഡ്മിൻ ആകണം എന്നിട്ട് വീണ്ടും Start കൊടുക്കണം") # Update Channel Added
             return    
     try:
         file_uid = update.command[1]
@@ -61,7 +60,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '🔔Join Main Channel🔔', url=f"https://t.me/{MT_CHANNEL}"
                                 )
                         ]
                     ]
