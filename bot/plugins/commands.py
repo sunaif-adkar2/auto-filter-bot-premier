@@ -32,7 +32,7 @@ async def start(bot, update):
             )
             return
         except Exception
-            await update.reply_text(f"അത്യം ഈ @{UPDATE_CHANNEL} ചാനലിൽ ബോട്ടിനെ അഡ്മിൻ ആകണം എന്നിട്ട് വീണ്ടും Start കൊടുക്കണം") # Update Channel Added
+            await update.reply_text("<b>This bot should be the admin on your update channel</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>"") # Update Channel Added
             return    
     try:
         file_uid = update.command[1]
