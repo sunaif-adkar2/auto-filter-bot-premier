@@ -11,6 +11,7 @@ from bot import UPDATE_CHANNEL # Update Text Message Channel Update
 from bot import MRK_YT_MASTER
 from bot import MT_GROUP
 from bot import MT_CHANNEL # Main Channel Added
+from bot import MT_BOT_UPDATES
 
 db = Database()
 
@@ -33,7 +34,7 @@ async def start(bot, update):
             )
             return
         except Exception:
-            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b> ഈ ചാനലിൽ ബോട്ടിനെ അഡ്മിൻ ആക് @{UPDATE_CHANNEL}</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>")
+            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{UPDATE_CHANNEL} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>")
             return  
     try:
         file_uid = update.command[1]
@@ -62,6 +63,12 @@ async def start(bot, update):
                             InlineKeyboardButton
                                 (
                                     '🔔Join Main Channel🔔', url=f"https://t.me/{MT_CHANNEL}"
+                                )
+                        ],
+                        [
+                            InlineKeyboardButton
+                                (
+                                    '🔊 Bot Updates 🔊', url=f"{MT_BOT_UPDATES}"
                                 )
                         ]
                     ]
