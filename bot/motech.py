@@ -11,10 +11,9 @@ an express grant of patent rights.
 when a modified version is used to provide a service
 over a network, the complete source code of the modified
 version must be made available.
-»https://github.com/AlbertEinsteinTG»https://github.com/MoTechYT»https://github.com/PR0FESS0R-99/Pro-Auto-Filter-Bot-V2
-your main Channel Added from Heroku
+»https://github.com/AlbertEinsteinTG»https://t.me/sabotschannel/12your main Channel Added from Heroku
 update"""
-MT_BOT_UPDATES = "t.me/Mo_tech_YT" # eg
+MT_BOT_UPDATES = "https://t.me/sabotschannel/12" # eg
 """your Main Channel"""
-BOT_UPDATES = "t.me/Mo_Tech_YT" # eg
+BOT_UPDATES = "t.me/sunaif_adkar" # eg
 
