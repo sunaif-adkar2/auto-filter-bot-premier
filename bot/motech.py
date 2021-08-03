@@ -1,6 +1,6 @@
-Running Code MoTechYT
+"""Running Code MoTechYT
 Editing By Pr0fess0r 99
-GNU Affero General Public License v3.0
+GNU Affero General Public License v3.0"""
 Permissions of this strongest copyleft license
 are conditioned on making available complete
 source code of licensed works and modifications,
