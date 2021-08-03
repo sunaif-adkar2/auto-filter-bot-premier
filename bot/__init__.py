@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG & MRK_YT
+# (c) @AlbertEinsteinTG & sunaif_adkar
 
 import os
 import logging
@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 from .translation import Translation
 
-# Created https://github.com/MRK-YT 
+# Created https://t.me/sunaif_adkar
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL")
 
 MT_CHANNEL_USERNAME = os.environ.get("JOIN_MAIN_CHANNEL")
