@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG @MRK_YT
+# (c) @AlbertEinsteinTG @sunaif_adkar
 
 class Translation(object):
     
     START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
 
-<b>I am a Pro AutoFilterBot V2....😜</b>
+<b>I am legend AutoFilterBot ....😜</b>
 
-<b>Make me an admin for your group and channel then connect me....🎉</b>
+<b>sorry you can't add me in your group🎉</b>
 
-<b>🙂Watch the video below to build an Pro Autofilter bot V2 like me...</b>
+<b>🙂 you can bulid Autofilter bot  like me... Contact @sunaif_adkar</b>
 
-<b>Subscribe to the update channel to learn about my updates and activity...</b>
+<b>There are many legends on telegram 🤹</b>
 
 <b>Press /help to know about available commands🤪</b>"""    
     
@@ -20,8 +20,8 @@ class Translation(object):
 <b>😉How To Use Me!😉?</b>
 
 <i>
--> Add Me To Any Group And Make Me Admin
--> Add Me To Your Desired Channel
+-> sorry dude u can't help you 😆
+->  chodich poyavan oombi🤣
 </i>
 
 <b>Bot Commands (Works Only In Groups) :</b>
@@ -49,15 +49,15 @@ class Translation(object):
 <b><a href="https://t.me/Mo_Tech_YT">© Mo Tech YT</a></b>
 """
     
-    ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>Pro Auto Filter Bot</b>
+    ABOUT_TEXT = """<b>➥ 📃Name</b> : <b> Auto Filter Bot</b>
 
-<b>>➥👨‍💼Master</b> : <b><a href="https://t.me/AlbertEinstein_TG">👤Albert Einstein</a></b>
+<b>>➥👨‍💼Master</b> : <b><a href="https://t.me/sunaif_adkar">👤Sunaif_adkar</a></b>
 
-<b>➥ 👨‍💻Editor</b> : <b><a href="https://t.me/MRk_YT">👤Mrk YT</a></b>
+<b>➥ 👨‍💻Editor</b> : <b><a href="https://chat.whatsapp.com/GS6WZFCyrl60pszygT9wPS">👤 SaBots</a></b>
 
 <b>➥ 🗣️Language</b> : <b>Python3<b>
 
 <b>➥ 📚Library</b> : <b><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></b>
 
-<b>➥ 📖Source Code</b> : <b><a href="https://github.com/MoTechYT/Pro-Auto-Filter-Bot-V2">💥Click Me</a></b>
+<b>➥ 📖Source Code</b> : <b><a href="https://t.me/sabotschannel/12">💥Click Me</a></b>
 """
