@@ -167,7 +167,7 @@ async def about(bot, update):
         InlineKeyboardButton('👤 SUNAIF ADKAR👤', url='https://t.me/sunaif_adkar'),
         InlineKeyboardButton('support👤', url='https://https://chat.whatsapp.com/GS6WZFCyrl60pszygT9wPS')
     ],[
-        InlineKeyboardButton('🍂 REPO 🍂', url='https://t.me/sabotschannel/12')
+        InlineKeyboardButton('🍂 create bot like me 🍂', url='https://t.me/sabotschannel/12')
     ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
