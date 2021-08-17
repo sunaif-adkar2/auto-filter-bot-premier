@@ -8,7 +8,7 @@ class Translation(object):
 
 <b>I am a Pro AutoFilterBot ....😜</b>
 
-<b>Dont ask me for help goodbye....🎉</b>
+<b>type /help for help....😍</b>
 
 <b>You can also make bot like me 😌...</b>
 
@@ -17,11 +17,11 @@ class Translation(object):
 <b>Press /help to know about available commands🤪</b>"""    
     
     HELP_TEXT = """
-<b>nalledh cheyda nalledh kittane😌?</b>
+<b>make this bot admin in your channel</b>
 
 <i>
--> Please i can't help you🤮
--> Go and oomb😕
+-> and add files to in your db l:)
+-> bot will work
 </i>
 
 <b>Bot Commands (Works Only In Groups) :</b>
@@ -53,7 +53,7 @@ class Translation(object):
 
 <b>>➥👨‍💼Master</b> : <b><a href="https://t.me/sunaif_adkar">👤 Sunaif Adkar</a></b>
 
-<b>➥ 👨‍💻Editor</b> : <b><a href="https://chat.whatsapp.com/GS6WZFCyrl60pszygT9wPS">👤SaMods</a></b>
+<b>➥ 🎬turtoil video</b> : <b><a href="https://chat.whatsapp.com/GS6WZFCyrl60pszygT9wPS">👤SaMods</a></b>
 
 <b>➥ 🗣️Language</b> : <b>Python3<b>
 
