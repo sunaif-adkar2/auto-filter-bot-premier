@@ -11,3 +11,4 @@ You can deploy this bot anywhere.
 </p>
 </details>
 
+>SHARE AND SUPPORT PLEASE.
