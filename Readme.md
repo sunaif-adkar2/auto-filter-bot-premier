@@ -1,3 +1,8 @@
+# Auto Filter Bot V2
+
+<p align="center">
+  <a href="https://www.python.org">
+    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
 
 ##### Deploy
 You can deploy this bot anywhere.
