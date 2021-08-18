@@ -21,3 +21,5 @@ You can deploy this bot anywhere.
 </a>
 </p>
 </details>
+
+>SHARE AND SUPPORT PLEASE
