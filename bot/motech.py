@@ -15,5 +15,5 @@ version must be made available.
 update"""
 MT_BOT_UPDATES = "https://t.me/sabotschannel/12" # eg
 """your Main Channel"""
-BOT_UPDATES = "t.me/sunaif_adkar" # eg
+BOT_UPDATES = "https://t.me/sunaif_adkar" # eg
 
