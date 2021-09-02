@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG @sunaif_adkar
+# (c) @AlbertEinsteinTG 
 
 class Translation(object):
     
