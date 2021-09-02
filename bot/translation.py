@@ -4,17 +4,12 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
-
-<b>I am a Pro AutoFilterBot ....😜</b>
-
-<b>type /help for help....😍</b>
-
-<b>You can also make bot like me 😌...</b>
-
-<b>Subscribe to the update channel to learn about my updates and activity...</b>
-
-<b>Press /help to know about available commands🤪</b>"""    
+    START_TEXT = """<b>Hey {}!!</b>
+<i>Am Just A Advance Auto Filter Bot....😉
+Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🌚🎀
+For More Details Click Help Button Below..
+@sabotschannel
+</i>"""        
     
     HELP_TEXT = """
 <b>make this bot admin in your channel</b>
@@ -53,7 +48,7 @@ class Translation(object):
 
 <b>>➥👨‍💼Master</b> : <b><a href="https://t.me/sunaif_adkar">👤 Sunaif Adkar</a></b>
 
-<b>➥ 🎬turtoil video</b> : <b><a href="https://chat.whatsapp.com/GS6WZFCyrl60pszygT9wPS">👤SaMods</a></b>
+<b>➥ 🎬turtoil video</b> : <b><a href="https://t.me/sabotschannel/19">👤SaMods</a></b>
 
 <b>➥ 🗣️Language</b> : <b>Python3<b>
 
