@@ -8,7 +8,7 @@ from pyrogram.errors import ButtonDataInvalid, FloodWait
 
 from bot.database import Database # pylint: disable=import-error
 from bot.bot import Bot # pylint: disable=import-error
-from bot import MT_CHANNEL, MASSAGE_PHOTO
+
 
 FIND = {}
 INVITE_LINK = {}
@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("📢 Join My Main Channel 📢", url=f"https://t.me/{MT_CHANNEL}")
+                    InlineKeyboardButton("🎀️JOIN OUR MAIN CHANNEL🎀️", url=f"https://t.me/{MT_CHANNEL_USERNAME}")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -76,17 +76,18 @@ async def auto_filter(bot, update):
             if file_size < 1024:
                 file_size = f"[{file_size} B]"
             elif file_size < (1024**2):
-                file_size = f"[{str(round(file_size/1024, 2))} KB] "
+                file_size = f"[{str(round(file_size/1024, 2))} KiB] "
             elif file_size < (1024**3):
-                file_size = f"[{str(round(file_size/(1024**2), 2))} MB] "
+                file_size = f"[{str(round(file_size/(1024**2), 2))} MiB] "
             elif file_size < (1024**4):
-                file_size = f"[{str(round(file_size/(1024**3), 2))} GB] "
+                file_size = f"[{str(round(file_size/(1024**3), 2))} GiB] "
             
             
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"{file_size} || {file_name}"
+            file_names = file_name
+            f_size = file_size
             
 
             if file_type == "video":
@@ -124,14 +125,19 @@ async def auto_filter(bot, update):
                 bot_ = FIND.get("bot_details")
                 file_link = f"https://t.me/{bot_.username}?start={unique_id}"
             
-            results.append(
-                [
-                    InlineKeyboardButton(button_text, url=file_link),
-                ]
-            )
+            results.append([
+            InlineKeyboardButton( " 📂 " + file_names, url=file_link),
+            InlineKeyboardButton(" 📥 " + f_size, url=file_link)
+        ])
         
     else:
-        return # return if no files found for that query
+        Send_message = await bot.send_message(
+            chat_id=update.chat.id,
+            text="<b>Couldn't Find This Movie.Try Again ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺</b>",
+            reply_to_message_id=update.message_id
+        )
+        await asyncio.sleep(5)
+        await Send_message.delete()
     
 
     if len(results) == 0: # double check
@@ -152,16 +158,16 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Next➡️", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"📑 𝙿𝚊𝚐𝚎 1/{len_result if len_result < max_pages else max_pages} 📑", callback_data="ignore")
+            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
         ])
         
-        
+        result[0].append([ InlineKeyboardButton(f"💜 SHARE OUR GROUP  💜", url="https://wa.me/?text=Hlo baai im fan of Sunaif ser🌚🏃") ])       
         # if show_invite is True Append invite link buttons
         if show_invite:
             
@@ -206,10 +212,9 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
-            await bot.send_photo(
+            await bot.send_message(
                 chat_id = update.chat.id,
-                photo= MASSAGE_PHOTO,
-                caption=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬File Name :-</b> <code>{query}</code>",
+                text=f"""<i><b> ʜᴇʀᴇ ɪꜱ ᴛʜᴇ {(len_results)} ꜰᴏʀ yᴏᴜʀ qᴜᴇʀy:</i></b> <b>{query}</b>""",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
