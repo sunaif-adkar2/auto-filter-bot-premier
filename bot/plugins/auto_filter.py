@@ -8,7 +8,7 @@ from pyrogram.errors import ButtonDataInvalid, FloodWait
 
 from bot.database import Database # pylint: disable=import-error
 from bot.bot import Bot # pylint: disable=import-error
-from bot import MT_CHANNEL_USERNAME, MASSAGE_PHOTO
+from bot import MT_CHANNEL, MASSAGE_PHOTO
 
 FIND = {}
 INVITE_LINK = {}
@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("💢 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 💢", url=f"https://t.me/{MT_CHANNEL_USERNAME}")
+                    InlineKeyboardButton("📢 Join My Main Channel 📢", url=f"https://t.me/{MT_CHANNEL}")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -76,17 +76,17 @@ async def auto_filter(bot, update):
             if file_size < 1024:
                 file_size = f"[{file_size} B]"
             elif file_size < (1024**2):
-                file_size = f"[{str(round(file_size/1024, 2))} KiB] "
+                file_size = f"[{str(round(file_size/1024, 2))} KB] "
             elif file_size < (1024**3):
-                file_size = f"[{str(round(file_size/(1024**2), 2))} MiB] "
+                file_size = f"[{str(round(file_size/(1024**2), 2))} MB] "
             elif file_size < (1024**4):
-                file_size = f"[{str(round(file_size/(1024**3), 2))} GiB] "
+                file_size = f"[{str(round(file_size/(1024**3), 2))} GB] "
             
             
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"🗒️{file_size}🗂️{file_name}"
+            button_text = f"{file_size} || {file_name}"
             
 
             if file_type == "video":
@@ -126,7 +126,7 @@ async def auto_filter(bot, update):
             
             results.append(
                 [
-                    InlineKeyboardButton(button_text, url=file_link)
+                    InlineKeyboardButton(button_text, url=file_link),
                 ]
             )
         
@@ -152,7 +152,7 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("𝙽𝚎𝚡𝚝»»»", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("Next➡️", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
@@ -209,7 +209,7 @@ async def auto_filter(bot, update):
             await bot.send_photo(
                 chat_id = update.chat.id,
                 photo= MASSAGE_PHOTO,
-                caption=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬Movie Name :-</b> <code>{query}</code>",
+                caption=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬File Name :-</b> <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
