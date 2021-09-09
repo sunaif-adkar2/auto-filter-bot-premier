@@ -6,7 +6,6 @@
 <P align="center">
    <a href="https://t.me/sunaif_adkar">
 
->~~~~~~PYTHON~~~~~
 
 #### HELP👩‍💻
     ```Just add bot to channel and group after deploying &See powers🏃```
