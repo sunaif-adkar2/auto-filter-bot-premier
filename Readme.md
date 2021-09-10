@@ -4,9 +4,9 @@
   <a href="https://www.python.org">
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
 <P align="center">
-   <a href="https://t.me/sunaif_adkar">
+   <a href="https://youtu.be/zztf40dmEbI">
 
-Telegram SUPPORT
+🎀 Whatch deploying video 🎀
 .
 <i>
       
