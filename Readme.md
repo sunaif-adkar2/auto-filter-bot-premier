@@ -20,8 +20,10 @@ Telegram SUPPORT
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 
+ ----------ˢʰᵃʳᵉ ᵃⁿᵈ ˢᵘᵖᵖᵒʳᵗ----------  
 
 ####SERVER
+
  >Heroku 
 
  >Vps soon as possible
