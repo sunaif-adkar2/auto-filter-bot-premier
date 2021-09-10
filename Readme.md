@@ -8,12 +8,13 @@
 
 Telegram SUPPORT
 
+#####SERVER
+ >Heroku 
+ >Vps soon as possible
+ >Railway not available      
+
 #### HELP👩‍💻
-    ```Just add bot to channel and group after deploying &See powers🏃```
-
-    ```~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~```
-
-
+    ```Just add bot to channel and group after deploying &See powers```
 
 ## Deploy
 You can deploy this bot anywhere.
