@@ -13,11 +13,11 @@ Telegram SUPPORT
 
 #### HELP👩‍💻
 
-```1```
+
 
 ```Just add bot to channel and group after deploying &See powers```
 
-```2```
+
 
 ```for configure just type /𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 in you group```
 
