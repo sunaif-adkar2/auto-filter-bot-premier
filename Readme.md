@@ -22,9 +22,6 @@ Telegram SUPPORT
 <i>
 
 
-                      ----------ˢʰᵃʳᵉ ᵃⁿᵈ ˢᵘᵖᵖᵒʳᵗ----------  
-
-
 #### SERVER
 
  >Heroku 
