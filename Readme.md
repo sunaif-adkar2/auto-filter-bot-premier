@@ -20,6 +20,8 @@ Telegram SUPPORT
 ```2```
 
 ```for configure just type /𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 in you group```
+
+```✤🅵🅾🆁 🅼🅾🆁🅴 🅷🅴🅻🅿 🅹🅾🅸🅽 🆃🅶/🆆🅰 🅶🆁🅾🆄🅿🆂✤```
 ## Deploy
 
 <a href="https://heroku.com/deploy?template=https://github.com/sunaif-adkar2/auto-filter-bot-premier/tree/main">
