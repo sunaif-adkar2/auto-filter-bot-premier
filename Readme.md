@@ -40,6 +40,7 @@ Telegram SUPPORT
 
 ##### SUPPORT GROUPS
 
-https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
+[![SAwalogo](https://telegra.ph/file/0da96d2be9ac508c2e082.png)](https://chat.whatsapp.com/ICCTs3l2iC9BOwrlEs5KcQ)
+  <div align="center">
 
 
