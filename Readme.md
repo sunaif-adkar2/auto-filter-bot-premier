@@ -9,13 +9,7 @@
 Telegram SUPPORT
 .
 <i>
-
-#####SERVER
- >Heroku 
-
- >Vps soon as possible
-
- >Railway not available      
+      
 
 #### HELP👩‍💻
 ```Just add bot to channel and group after deploying &See powers```
@@ -28,4 +22,9 @@ Telegram SUPPORT
 </p>
 </details>
 
->SHARE AND SUPPORT PLEASE
+#####SERVER
+ >Heroku 
+
+ >Vps soon as possible
+
+ >Railway not available
