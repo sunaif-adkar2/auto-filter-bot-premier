@@ -12,7 +12,12 @@ Telegram SUPPORT
       
 
 #### HELP👩‍💻
+
+```1```
+
 ```Just add bot to channel and group after deploying &See powers```
+
+```2```
 
 ## Deploy
 
