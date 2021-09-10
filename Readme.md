@@ -8,7 +8,7 @@
 
 Telegram SUPPORT
 .
-
+<i>
 
 #####SERVER
  >Heroku 
@@ -18,12 +18,9 @@ Telegram SUPPORT
  >Railway not available      
 
 #### HELP👩‍💻
-    ```Just add bot to channel and group after deploying &See powers```
+```Just add bot to channel and group after deploying &See powers```
 
 ## Deploy
-You can deploy this bot anywhere.
-
-<i>**[Watch Deploying Tutorial...](https://youtu.be/KTearEPhumc)**</i>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
