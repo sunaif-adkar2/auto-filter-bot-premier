@@ -42,6 +42,3 @@
 
 [![SAwalogo](https://telegra.ph/file/0da96d2be9ac508c2e082.png)](https://chat.whatsapp.com/ICCTs3l2iC9BOwrlEs5KcQ)
   <div align="center">
-
-
-![Visitor Count](https://profile-counter.glitch.me/sunaif-adkar2/auto-filter-bot-premier/count.svg)
