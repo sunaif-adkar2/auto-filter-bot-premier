@@ -44,3 +44,4 @@
   <div align="center">
 
 
+![Visitor Count](https://profile-counter.glitch.me/sunaif-adkar2/auto-filter-bot-premier/count.svg)
