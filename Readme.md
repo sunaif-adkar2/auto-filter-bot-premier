@@ -6,7 +6,7 @@
 <P align="center">
    <a href="https://youtu.be/zztf40dmEbI">
 
-🎀 Whatch deploying video 🎀
+🎀 Watch deploying video 🎀
 .
 <i>
       
