@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '📺JOIN UPDATES🍿', url="https://t.me/mcupdateschan"
+                                    'Join📺', url="https://t.me/mcupdateschan"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('💕JOIN % ENJOY🍿', url='https://mcupdateschan'),
+        InlineKeyboardButton('Developers', url='https://t.me/mc_developers'),
         InlineKeyboardButton('Source Code 🧾', url ='https://t.me/mc_developers')
-    ],[9
-        InlineKeyboardButton('SERIES📺', url='https://t.me/the_world_of_series')
+    ],[
+        InlineKeyboardButton('Support 🛠', url='https://t.me/mc_movie_requests')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
