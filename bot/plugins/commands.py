@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developer', url="https://t.me/sabotschannel"
+                                    '📺JOIN UPDATES🍿', url="https://t.me/mcupdateschan"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/sabotschannel'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/sunaif-adkar2/auto-filter-bot-premier')
-    ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/sabotschannel')
+        InlineKeyboardButton('💕JOIN % ENJOY🍿', url='https://mcupdateschan'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/mc_developers')
+    ],[9
+        InlineKeyboardButton('SERIES📺', url='https://t.me/the_world_of_series')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
