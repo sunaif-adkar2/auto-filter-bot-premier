@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developer', url="https://t.me/sabotschannel"
+                                    'Join📺', url="https://t.me/mcupdateschan"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/sabotschannel'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/sunaif-adkar2/auto-filter-bot-premier')
+        InlineKeyboardButton('Developers', url='https://t.me/mc_developers'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/mc_developers')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/sabotschannel')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/mc_movie_requests')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
@@ -70,9 +70,6 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
-    ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     
